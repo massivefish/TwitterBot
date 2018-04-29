@@ -4,7 +4,7 @@ import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 import java.util.List;
 /**
- * Created by nkol7066 on 5/19/2017.
+ * Created on 5/19/2017.
  */
 
 public class GetUserTimeline {

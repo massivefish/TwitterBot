@@ -8,7 +8,7 @@ import twitter4j.*;
         import java.util.List;
 
 /**
- * Created by nkol7066 on 5/19/2017.
+ * Created on 5/19/2017.
  */
 
 public class GetTimeline {
