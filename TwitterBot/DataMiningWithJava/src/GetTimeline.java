@@ -16,10 +16,10 @@ public class GetTimeline {
 
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("gT7LPPBgNdppb9F5qdMQ0g1FJ")
-                .setOAuthConsumerSecret("Pb3Y4eJLrAmKi5TAxiKGmOYVDxqrU1lrURfJu9YBTdXf6rr18Z")
-                .setOAuthAccessToken("2821115575-JqrDudlbJCg8aiaD1Y8mmSnhGHHL5m96Sh4ZpFU")
-                .setOAuthAccessTokenSecret("sdUJrr5FCFnxl9FVnS1aebzXfqMvXScsJyx3gCs9NjHKX");
+                .setOAuthConsumerKey("//Add your own API keys here")
+                .setOAuthConsumerSecret("//Add your own API keys here")
+                .setOAuthAccessToken("//Add your own API keys here")
+                .setOAuthAccessTokenSecret("//Add your own API keys here");
         TwitterFactory tf = new TwitterFactory(cb.build());
         Twitter twitter = tf.getInstance();
         List<Status> statuses = null;
